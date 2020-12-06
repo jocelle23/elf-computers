@@ -19,7 +19,7 @@ export default class Parts extends React.Component {
                         id={itemHash}
                         className="feature__option"
                         name={slugify(this.props.feature)}
-                        checked={item.name === this.props.selected[this.props.feature].name}
+                        //checked={item.name === this.props.selected[this.props.feature].name}
                         onChange={e => this.props.updateFeature(this.props.feature, item)}
                     />
                     <label htmlFor={itemHash} className="feature__label">
